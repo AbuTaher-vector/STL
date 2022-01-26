@@ -1,0 +1,18 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define nn int
+#define dd double
+#define ll long long int
+#define ss string
+#define nl '\n'
+int main()
+{
+    /*  rend() is a built-in function in C++ STL which returns a reverse
+     iterator pointing to the theoretical element right before the first element in the array container.
+     */
+
+    vector<nn>v{1,2,3,4,5};
+    for(auto it=v.rbegin();it!=v.rend();it++) cout<<*it<<" ";
+        cout<<nl;
+   
+}
