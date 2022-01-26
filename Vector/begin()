@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define nn int
+#define dd double
+#define ll long long int
+#define ss string
+#define nl '\n'
+int main()
+{
+    /*  begin() function is used to return an iterator pointing to the first element of the vector
+        container. begin() function returns a bidirectional iterator to the first element of the container.
+     */
+
+    vector<nn>v{1,2,3,4,5};
+    cout<<*v.begin()<<nl;
+   
+}
