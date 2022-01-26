@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define nn int
+#define dd double
+#define ll long long int
+#define ss string
+#define nl '\n'
+int main()
+{
+    /*  rbegin() is a built-in function in C++ STL which 
+    returns a reverse iterator pointing to the last element in the container.
+     */
+
+    vector<nn>v{1,2,3,4,5};
+    cout<<*v.rbegin()<<nl;
+   
+}
