@@ -1,0 +1,20 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define nn int
+#define dd double
+#define ll long long int
+#define ss string
+#define nl '\n'
+int main()
+{
+    /*
+      vector::size()
+     size() function is used to return the size of 
+   the vector container or the number of elements in the vector container.
+    */
+    vector<nn>v;
+     v={2,3,4,5,6};
+     cout<<"The size of the vector is "<<v.size()<<nl;
+    
+   
+}
