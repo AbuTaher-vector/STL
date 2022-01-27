@@ -1,0 +1,19 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define nn int
+#define dd double
+#define ll long long int
+#define ss string
+#define nl '\n'
+int main()
+{
+    /*
+      vector::empty()
+       The empty() function is used to check if the vector container is empty or not.
+    */
+    vector<nn>v(5);
+    v={2,3,4,5,6};
+    if(v.empty()) cout<<"Vector is empty"<<nl;
+    else cout<<"Vector is not empty"<<nl;
+   
+}
