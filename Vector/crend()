@@ -1,0 +1,19 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define nn int
+#define dd double
+#define ll long long int
+#define ss string
+#define nl '\n'
+int main()
+{
+    /*
+      crend() It’s a public member function that returns a
+       const_reverse_iterator pointing to the element preceding the first element.
+    */
+    vector<nn>v(5);
+    v={2,3,4,5,6};
+    for(auto it=v.crbegin();it!=v.crend();it++) cout<<*it<<" ";
+        cout<<nl;
+   
+}
