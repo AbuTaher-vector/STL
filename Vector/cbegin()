@@ -1,0 +1,23 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define nn int
+#define dd double
+#define ll long long int
+#define ss string
+#define nl '\n'
+int main()
+{
+    /*
+      cbegin() function returns an iterator which is used to iterate container.
+
+      The iterator points to the beginning of the vector.
+      Iterator cannot modify the contents of the vector.
+    */
+    vector<nn>v(5);
+    v={2,3,4,5,6};
+    cout<<*v.cbegin()<<nl;
+
+
+    //We can not change any value of this container if we iterate the vector with the help of cbegin()
+   
+}
