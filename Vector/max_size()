@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define nn int
+#define dd double
+#define ll long long int
+#define ss string
+#define nl '\n'
+int main()
+{
+    /*
+      The vector::max_size() is a built-in function in C++ STL
+       which returns the maximum number of elements that can be held by the vector container.
+    */
+    vector<nn>v;
+    cout<<v.max_size()<<nl;
+   
+}
