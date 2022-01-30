@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define nn int
+#define dd double
+#define ll long long int
+#define ss string
+#define nl '\n'
+int main()
+{
+    /*at() function is used reference the element present
+     at the position given as the parameter to the function. 
+    */
+    vector<nn>v(5);
+    v={2,3,4,5,6};
+    cout<<v.at(3)<<nl;
+}
