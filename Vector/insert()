@@ -1,0 +1,19 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define nn int
+#define dd double
+#define ll long long int
+#define ss string
+#define nl '\n'
+int main()
+{
+    /*std::vector::insert() is a built-in function in C++ STL which inserts new
+     elements before the element at the specified position,
+     effectively increasing the container size by the number of elements inserted.
+    */
+    vector<nn>v{1,2,3,4,5,6,7};
+    v.insert(v.begin()+1,0);
+    for(nn i=0;i<v.size();i++) cout<<v[i]<<" ";
+        cout<<nl;
+    
+}
