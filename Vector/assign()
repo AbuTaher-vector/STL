@@ -1,0 +1,18 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define nn int
+#define dd double
+#define ll long long int
+#define ss string
+#define nl '\n'
+int main()
+{
+    /*vector:: assign() is an STL in C++ which assigns new values to the vector elements by
+     replacing old ones. It can also modify the size of the vector if necessary.
+    */
+    vector<nn>v;
+    v.assign(7,100);
+    for(nn i=0;i<v.size();i++) cout<<v[i]<<" ";
+        cout<<nl;
+    
+}
