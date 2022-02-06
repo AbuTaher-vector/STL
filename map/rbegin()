@@ -1,0 +1,29 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define nn int
+#define dd double
+#define ll long long int
+#define ss string
+#define nl '\n'
+int main()
+{
+   /*
+      The std::map::rbegin() is a function in C++ STL. It returns a reverse iterator which points 
+      to the last element of the map. The reverse 
+      iterator iterates in reverse order and incrementing it means moving towards beginning of map.
+         */
+
+
+     map<nn,nn>mp;
+
+     mp.emplace(1,10);
+     mp.emplace(3,30);
+     mp.emplace(4,40);
+     mp.emplace(5,50);
+
+     auto it=mp.rbegin();
+     cout<<it->first<<" "<<it->second<<nl;
+   
+    
+
+}
