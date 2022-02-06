@@ -1,0 +1,56 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define nn int
+#define dd double
+#define ll long long int
+#define ss string
+#define nl '\n'
+int main()
+{
+   /*
+   The map::insert() is a built-in function in
+    C++ STL which is used to insert elements with a particular key in the map container. 
+   */
+     map<nn,ss>mp;
+     mp.insert({1,"DIU"});
+     mp.insert({2,"BRAC"});
+     mp.insert({3,"NSU"});
+     mp.insert({4,"AIUB"});
+
+     for(auto it=mp.begin();it!=mp.end();it++) cout<<it->first<<" "<<it->second<<nl;
+          cout<<nl;
+
+     /*
+       iterator map_name.insert(iterator position, {key, element})
+       Parameters: The function accepts two parameters which is described below: 
+
+       {key, element}: This specifies a pair that consists of a key and element which is 
+       to be inserted into the map container.
+
+       position: This does not specify the position where 
+       the insertion is to be done, it only points to a position from
+       where the searching operation for insertion is to be started to make the process faster. 
+       The insertion is done according to the order which is followed by the map container.
+
+     */
+     auto it=mp.find(4);
+     mp.insert(it,{5,"IUBAT"});
+     for(auto it=mp.begin();it!=mp.end();it++) cout<<it->first<<" "<<it->second<<nl;
+          cout<<nl;
+     
+
+     /*
+         iterator map_name.insert(iterator position1, iterator position2)
+     */
+
+     map<nn,ss>mp2;
+     mp2.insert(mp.begin(),mp.end());
+
+     for(auto it=mp.begin();it!=mp.end();it++) cout<<it->first<<" "<<it->second<<nl;
+          cout<<nl;
+     
+
+     
+
+
+}
