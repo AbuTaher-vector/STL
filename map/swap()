@@ -1,0 +1,39 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define nn int
+#define dd double
+#define ll long long int
+#define ss string
+#define nl '\n'
+int main()
+{
+   /*
+        map::swap()
+        swap() function is used to exchange the contents 
+        of two maps but the maps must be of same type, although sizes may differ.
+   */
+     map<nn,ss>mp;
+     map<nn,ss>mp2;
+
+     mp.insert({1,"DIU"});
+     mp.insert({2,"BRAC"});
+
+
+     mp2.insert({3,"NSU"});
+     mp2.insert({4,"AIUB"});
+     mp2.insert({5,"IUBAT"});
+
+     
+     swap(mp,mp2);
+
+     for(auto x:mp) cout<<x.first<<" "<<x.second<<nl;
+          cout<<nl;
+
+      for(auto x:mp2) cout<<x.first<<" "<<x.second<<nl;
+          cout<<nl;
+
+     
+      
+
+
+}
