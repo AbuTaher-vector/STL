@@ -1,0 +1,25 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define nn int
+#define dd double
+#define ll long long int
+#define ss string
+#define nl '\n'
+int main()
+{
+   /*
+    The map::max_size() is a built-in function in C++ STL
+     which returns the maximum number of elements a map container can hold.
+   */
+     map<nn,ss>mp;
+     mp.insert(make_pair(1,"DIU"));
+     mp.insert(make_pair(2,"BRAC"));
+     mp.insert(make_pair(3,"NSU"));
+     mp.insert(make_pair(4,"AIUB"));
+
+     cout<<mp.max_size()<<nl;
+
+     
+
+
+}
