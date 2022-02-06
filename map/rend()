@@ -1,0 +1,28 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define nn int
+#define dd double
+#define ll long long int
+#define ss string
+#define nl '\n'
+int main()
+{
+   /*
+      The rend() function is an inbuilt function in C++ STL which returns a reverse
+       iterator pointing to the theoretical element 
+      right before the first key-value pair in the map(which is considered its reverse end).
+         */
+
+
+     map<nn,nn>mp;
+
+     mp.emplace(1,10);
+     mp.emplace(3,30);
+     mp.emplace(4,40);
+     mp.emplace(5,50);
+
+     for(auto x=mp.rbegin();x!=mp.rend();x++) cout<<x->first<<" "<<x->second<<nl;
+   
+    
+
+}
