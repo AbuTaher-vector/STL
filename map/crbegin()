@@ -1,0 +1,31 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define nn int
+#define dd double
+#define ll long long int
+#define ss string
+#define nl '\n'
+int main()
+{
+   /*
+      map::crbegin() is a built-in function in C++ STL which returns a constant reverse 
+      iterator referring
+       to the last element in the map container. Since map container contains the element
+        in an ordered way, crbegin()
+       will point to that element that will come last according to the container’s sorting criterion.
+         */
+
+
+     map<nn,nn>mp;
+
+     mp.emplace(1,10);
+     mp.emplace(3,30);
+     mp.emplace(4,40);
+     mp.emplace(5,50);
+
+     auto it=mp.crbegin();
+     cout<<it->first<<" "<<it->second<<nl;
+   
+    
+
+}
