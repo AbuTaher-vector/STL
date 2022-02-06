@@ -1,0 +1,64 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define nn int
+#define dd double
+#define ll long long int
+#define ss string
+#define nl '\n'
+int main()
+{
+   /*
+   map::erase() is a built-in function in C++ STL which is used to erase element from the container.
+    It can be used to erase keys, elements at any specified position or a given range. 
+   */
+     map<nn,ss>mp;
+     mp.insert({1,"DIU"});
+     mp.insert({2,"BRAC"});
+     mp.insert({3,"NSU"});
+     mp.insert({4,"AIUB"});
+     mp.insert({5,"IUBAT"});
+
+     for(auto it=mp.begin();it!=mp.end();it++) cout<<it->first<<" "<<it->second<<nl;
+          cout<<nl;
+
+     mp.erase(2);
+
+     for(auto it=mp.begin();it!=mp.end();it++) cout<<it->first<<" "<<it->second<<nl;
+          cout<<nl;
+
+     /*
+       map_name.erase(iterator position)
+       Parameters: The function accepts one mandatory parameter position which specifies
+        the iterator that is the reference to the position of the element to be erased. 
+
+       Return Value: The function does not return anything. 
+
+     */
+     auto it=mp.find(3);
+     mp.erase(it);
+
+     for(auto it=mp.begin();it!=mp.end();it++) cout<<it->first<<" "<<it->second<<nl;
+          cout<<nl;
+     
+
+     /*
+        map_name.erase(iterator position1, iterator position2)
+        Parameters: The function accepts two mandatory parameters which are described below: 
+
+        position1 – specifies the iterator that is the reference to the 
+        element from which removal is to be done.
+        position2 – specifies the iterator that is the reference to the
+         element upto which removal is to be done.
+     */
+
+    auto it2=mp.find(1);
+    auto it3=mp.find(5);
+    mp.erase(it2,it3);
+      for(auto it=mp.begin();it!=mp.end();it++) cout<<it->first<<" "<<it->second<<nl;
+          cout<<nl;
+     
+
+     
+
+
+}
