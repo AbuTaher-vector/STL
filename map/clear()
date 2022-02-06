@@ -1,0 +1,32 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define nn int
+#define dd double
+#define ll long long int
+#define ss string
+#define nl '\n'
+int main()
+{
+   /*
+        map::clear()
+        clear() function is used to remove all the elements from the map container 
+        and thus leaving it’s size 0.
+   */
+     map<nn,ss>mp;
+     mp.insert({1,"DIU"});
+     mp.insert({2,"BRAC"});
+     mp.insert({3,"NSU"});
+     mp.insert({4,"AIUB"});
+     mp.insert({5,"IUBAT"});
+
+     cout<<"Size before clean function : "<<mp.size()<<nl;
+
+     mp.clear();
+
+     cout<<"Size after clean function : "<<mp.size()<<nl;
+
+     
+      
+
+
+}
