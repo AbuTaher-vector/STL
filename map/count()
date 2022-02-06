@@ -1,0 +1,29 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define nn int
+#define dd double
+#define ll long long int
+#define ss string
+#define nl '\n'
+int main()
+{
+   /*
+        The map::count() is a built-in function in C++ STL which returns 1 
+        if the element with key K is present in the map container.
+         It returns 0 if the element with key K is not present in the container.
+   */
+     map<nn,ss>mp;
+     mp.insert({1,"DIU"});
+     mp.insert({2,"BRAC"});
+     mp.insert({3,"NSU"});
+     mp.insert({4,"AIUB"});
+     mp.insert({5,"IUBAT"});
+
+    if(mp.count(6)) cout<<"6 is available in the map"<<nl;
+    else cout<<"6 is not avalable in the map"<<nl;
+
+     
+      
+
+
+}
