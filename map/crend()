@@ -1,0 +1,29 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define nn int
+#define dd double
+#define ll long long int
+#define ss string
+#define nl '\n'
+int main()
+{
+   /*
+      map::crend() is a built-in function in C++ STL which returns a constant reverse iterator
+       pointing to the theoretical element before the first element in the map. Since map container 
+       contains the element in an ordered way, crend() will point to the element
+       theoretically before the first element according to the container’s sorting criterion.
+         */
+
+
+     map<nn,nn>mp;
+
+     mp.emplace(1,10);
+     mp.emplace(3,30);
+     mp.emplace(4,40);
+     mp.emplace(5,50);
+
+     for(auto x=mp.crbegin();x!=mp.crend();x++) cout<<x->first<<" "<<x->second<<nl;
+   
+    
+
+}
