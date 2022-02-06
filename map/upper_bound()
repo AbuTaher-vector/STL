@@ -1,0 +1,35 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define nn int
+#define dd double
+#define ll long long int
+#define ss string
+#define nl '\n'
+int main()
+{
+   /*
+        The map::upper_bound() is a built-in function in C++ STL which returns 
+        an iterator pointing to the immediate next element just greater than k. 
+        If the key passed in the parameter exceeds the maximum key in the container,
+         then the iterator returned points
+         to the number of elements in the map container as key and element=0.
+         */
+
+
+     map<nn,nn>mp;
+
+     mp.insert({1,10});
+     mp.insert({3,30});
+     mp.insert({4,40});
+     mp.insert({5,50});
+   
+     auto it=mp.upper_bound(1);
+      cout<<"The lower bound of key 1 is "<<it->first<<" "<<it->second<<nl;
+
+       it=mp.upper_bound(4);
+      cout<<"The lower bound of key 1 is "<<it->first<<" "<<it->second<<nl;
+
+       it=mp.upper_bound(6);
+      cout<<"The lower bound of key 1 is "<<it->first<<" "<<it->second<<nl;
+
+}
