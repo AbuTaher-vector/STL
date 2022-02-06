@@ -1,0 +1,27 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define nn int
+#define dd double
+#define ll long long int
+#define ss string
+#define nl '\n'
+int main()
+{
+   /*
+        map::at()
+        at() function is used to return the reference to the element associated with the key k.
+   */
+     map<nn,ss>mp;
+     mp.insert({1,"DIU"});
+     mp.insert({2,"BRAC"});
+     mp.insert({3,"NSU"});
+     mp.insert({4,"AIUB"});
+     mp.insert({5,"IUBAT"});
+
+     cout<<mp.at(5)<<nl;
+   
+     
+      
+
+
+}
