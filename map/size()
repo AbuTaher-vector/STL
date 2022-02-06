@@ -1,0 +1,25 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define nn int
+#define dd double
+#define ll long long int
+#define ss string
+#define nl '\n'
+int main()
+{
+   /*
+     map::size()
+     In C++, size() function is used to return the total number of elements present in the map.
+   */
+     map<nn,ss>mp;
+     mp.insert(make_pair(1,"DIU"));
+     mp.insert(make_pair(2,"BRAC"));
+     mp.insert(make_pair(3,"NSU"));
+     mp.insert(make_pair(4,"AIUB"));
+
+     cout<<mp.size()<<nl;
+
+     
+
+
+}
