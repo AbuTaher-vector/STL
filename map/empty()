@@ -1,0 +1,28 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define nn int
+#define dd double
+#define ll long long int
+#define ss string
+#define nl '\n'
+int main()
+{
+   /*
+    map::empty()
+    empty() function is used to check if the map container is empty or not.
+    Returns :
+    True, if map is empty
+    False, Otherwise
+   */
+     map<nn,ss>mp;
+     mp.insert(make_pair(1,"DIU"));
+     mp.insert(make_pair(2,"BRAC"));
+     mp.insert(make_pair(3,"NSU"));
+     mp.insert(make_pair(4,"AIUB"));
+
+     if(mp.empty()) cout<<"The map is empty"<<nl;
+     else cout<<"The map is not empty"<<nl;
+     
+
+
+}
