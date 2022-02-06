@@ -1,0 +1,23 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define nn int
+#define dd double
+#define ll long long int
+#define ss string
+#define nl '\n'
+int main()
+{
+   /*
+  end() function is used to return an iterator pointing to past the last element of the map container.
+   Since it does not refer to a valid element, 
+  it cannot de-referenced end() function returns a bidirectional iterator.
+   */
+     map<char,nn>mp;
+     mp['a']=1;
+     mp['b']=2;
+     mp['c']=3;
+
+     for(auto it=mp.begin();it!=mp.end();it++) cout<<it->first<<" "<<it->second<<nl;
+
+
+}
